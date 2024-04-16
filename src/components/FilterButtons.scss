@@ -4,6 +4,7 @@
   padding: 3px 5px;
 
   color: #7e7e7e;
+  font-size: 12px;
 
   border: 1px solid transparent;
 
@@ -13,5 +14,11 @@
     color: #000000;
 
     border: 1px solid #e9d9d8;
+  }
+}
+
+@media (max-width: 380px) {
+  .FilterButton {
+    font-size: 10px;
   }
 }

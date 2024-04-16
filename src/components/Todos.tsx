@@ -73,7 +73,10 @@ export const Todos: React.FC = () => {
               </p>
             </div>
             <FilterButtons filter={filter} setFilter={setFilter} />
-            <button className="button" onClick={clearCompletedTasks}>
+            <button
+              className="Todos__clear-button"
+              onClick={clearCompletedTasks}
+            >
               Clear Completed
             </button>
           </div>

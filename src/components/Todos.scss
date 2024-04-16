@@ -1,4 +1,6 @@
 .Todos {
+  padding: 0 20px;
+
   &__title {
     font-size: 36px;
     font-weight: 400;
@@ -28,7 +30,7 @@
   }
 
   &__task-count {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   &__footer {
@@ -41,5 +43,28 @@
     padding: 0 5px;
 
     color: #7e7e7e;
+  }
+
+  &__clear-button {
+    font-size: 12px;
+    color: #7e7e7e;
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: #000000;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .Todos {
+    &__task-count {
+      font-size: 10px;
+    }
+
+    &__clear-button {
+      font-size: 10px;
+    }
   }
 }
